@@ -8,8 +8,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "keepflowing | Business",
-  description: "Projects management platform",
+  title: "keepflowing",
+  description: "Easy, efficient, and flexible project management platform",
 };
 
 export default function RootLayout({
