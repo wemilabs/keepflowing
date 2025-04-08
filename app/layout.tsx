@@ -9,7 +9,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "keepflowing",
+  title: "KeepFlowing",
   description: "Easy, efficient, and flexible project management app",
 };
 
