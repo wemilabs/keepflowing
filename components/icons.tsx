@@ -12,6 +12,7 @@ import {
   LogOut,
   Plus,
   ClipboardList,
+  CreditCard,
 } from "lucide-react";
 
 const GoogleIcon = (props: SVGProps<SVGSVGElement>) => (
@@ -56,4 +57,5 @@ export const Icons = {
   add: Plus,
   teams: Users,
   projects: ClipboardList,
+  billing: CreditCard,
 };
