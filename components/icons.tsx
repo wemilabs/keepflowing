@@ -1,5 +1,19 @@
 import { SVGProps } from "react";
-import { Loader2 } from "lucide-react";
+import {
+  Loader2,
+  Layout,
+  Book,
+  Bot,
+  ChevronsUpDown,
+  Check,
+  User,
+  Users,
+  Settings,
+  LogOut,
+  Plus,
+  ClipboardList,
+  CreditCard,
+} from "lucide-react";
 
 const GoogleIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
@@ -32,4 +46,16 @@ const GoogleIcon = (props: SVGProps<SVGSVGElement>) => (
 export const Icons = {
   google: GoogleIcon,
   spinner: Loader2,
+  layout: Layout,
+  book: Book,
+  bot: Bot,
+  settings: Settings,
+  logout: LogOut,
+  chevronsUpDown: ChevronsUpDown,
+  check: Check,
+  user: User,
+  add: Plus,
+  teams: Users,
+  projects: ClipboardList,
+  billing: CreditCard,
 };
