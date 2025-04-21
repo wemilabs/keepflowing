@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function page() {
   return (
-    <div className="flex h-screen flex-col items-center justify-center border border-amber-600">
+    <div className="flex h-screen flex-col items-center justify-center">
       <div className="absolute top-4 left-4">
         <BackButton
           variant="ghost"
